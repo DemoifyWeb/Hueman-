@@ -1,0 +1,50 @@
+/*
+ Theme Name:   heuman -child
+ Theme URI:    https://wordpress.org/themes/hueman/
+ Description:  Child Theme
+ Author:       The wordpress team
+ Author URI:   https://wordpress.org
+ Template:     hueman
+ Version:      Version: 3.3.27
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  heuman-child
+
+*/
+
+div.page-title pad  h2{
+	color:blue;
+}
+
+.page-title h2, .page-title h4 {
+    color: #695728;
+}
+
+.page-title span {
+    color: #76B1DA;
+}
+.post-title a {
+    color: #9e2929;
+}
+.post-hover:hover > .post-title a{
+    color: #454E5C;
+}
+sidebar-toggle, .sidebar.s2 .sidebar-top {
+    background: #16CFC1;
+}
+.themeform.searchform div input {
+    padding-left: 50px;
+    line-height: 25px;
+}
+.themeform input[type=text], .themeform input[type=password], .themeform input[type=email], .themeform input[type=url], .themeform input[type=tel], .themeform input[type=number], .themeform select, .themeform textarea {
+    background: #fff;
+    border: 2px solid #ddd;
+    color: #777;
+    display: block;
+    max-width: 100%;
+    outline: 0;
+    padding: 7px 8px;
+    border-radius: 9px;
+}
+
